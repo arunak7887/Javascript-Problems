@@ -1,0 +1,9 @@
+Async function myfirstfunction() {  
+return "Hello World"  
+}  
+
+
+async function myfirstfunction() {  
+return Promise.resolve("Hello World");  
+}  
+
