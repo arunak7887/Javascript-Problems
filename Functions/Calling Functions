@@ -1,0 +1,10 @@
+function welcomeMSg(name){
+  return ("Hello"+name+"Welcome to GeeksforGeeks");
+}
+
+let nameVal="Admin";
+console.log(welcomeMsg(nameVal));
+
+//output: Hello Admin Welcome to GeeksforGeeks
+
+
