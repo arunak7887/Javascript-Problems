@@ -1,0 +1,8 @@
+emp={id:101,name:"Arun Kinwad",salary:40000}
+document.write(emp.id+" "+emp.name+" "+emp.salary);
+
+
+/*
+syntax:
+object={peoperty1:value1,property2:value2......propertyN:valueN}
+*/
