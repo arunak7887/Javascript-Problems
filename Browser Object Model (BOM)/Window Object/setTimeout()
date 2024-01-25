@@ -1,0 +1,13 @@
+<script>
+function msg(){
+setTimeout( 
+  function(){
+              alert("welcome to javatpoint after  seconds")
+  },2000);
+  }
+  </script>
+
+
+  <input type="button" value="click" onclick="msg()"/>
+
+  
