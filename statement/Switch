@@ -1,0 +1,17 @@
+var garde="B";
+var result;
+switch(garde){
+case 'A':
+result="A Garde";
+break;
+case 'B':
+result="B Grade";
+break;
+case 'C':
+result="C Grade";
+break;
+default:
+result="No Grade";
+}
+document.write(result);
+
