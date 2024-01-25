@@ -1,0 +1,7 @@
+<script>
+function msg(){
+open("http://www.javatpoint.com");
+}
+</script>
+<input type="button" value="javatpoint" onclick="msg()"/>
+
