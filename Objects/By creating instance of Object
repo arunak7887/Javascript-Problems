@@ -1,0 +1,12 @@
+var emp=new Object();
+emp.id=101;
+emp.name="Arun Kinwad";
+emp.salary=50000;
+document.write(emp.id+" "+emp.name+" "+emp.salary);
+
+
+/*
+
+var objectname=new Object();
+
+*/
