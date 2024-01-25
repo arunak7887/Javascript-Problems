@@ -1,0 +1,39 @@
+Named Function:
+
+function add(a,b){
+ return a+b;
+}
+console.log(add(5,4));
+
+
+Anonymous function:
+
+
+letn add=function(a,b){
+  return a+b;
+}
+console.log(add(5,4));
+
+
+Nested Functions:
+
+function msg(firstName){
+  function hey(){
+    console.log("Hey"+firstName);
+  }
+  return hey();
+}
+msg("Ravi");
+
+
+
+immediately invoked function expression:
+
+
+let msg=(function(){
+  return "Welcome to Gfg";
+})();
+console.log(msg);
+
+
+
