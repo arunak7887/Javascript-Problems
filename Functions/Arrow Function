@@ -1,0 +1,15 @@
+const a=["Hydrogen","Helium","Lithium","Beryllium"];
+const a2=a.map(function (s){
+  return s.length;
+});
+
+console.log("Normal Way",a2);//[8,6,7,9]
+const a3=a.map((s)=>s.length);
+console.log("using arrow function ",a3);//[8,6,7,9]
+
+
+/*output:
+Normal way  [ 8, 6, 7, 9 ]
+Using Arrow Function  [ 8, 6, 7, 9 ]
+
+*/
