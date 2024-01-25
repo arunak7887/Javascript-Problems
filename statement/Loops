@@ -1,0 +1,44 @@
+For loop
+
+for(i=1;i<=5;i++){
+document.write(i+"<br/>");
+}
+
+While loop
+
+var i=11;
+while(i<=15){
+document.write(i+"<br/>");
+}
+
+do while loop:
+
+var i=21;
+do{
+document.write(i+"<br/>");
+i++;
+}while(i<=25);
+
+
+for-in loop
+
+const courses={
+  firstcourse:"Javascript",
+  secondcourse:"React",
+  thirdcourse:Angular'
+};
+let value=' ';
+for(let item in courses){
+  value +=courses[item]+" ";
+}
+console.log(value);
+
+
+for-of loop
+
+let numArray=[1,4,16,25,49];
+console.log("Elements of numArray are->");
+for(let value of numArray){
+  console.log(value);
+}
+
